@@ -1,0 +1,13 @@
+.wrapper {
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+}
+
+input {
+    margin: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+}

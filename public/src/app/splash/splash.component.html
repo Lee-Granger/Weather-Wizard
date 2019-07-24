@@ -1,0 +1,12 @@
+<div class="wrapper">
+
+<form (click)="logIt()">
+    <label [style.font-size.em]="2">Search By City:</label>
+    <br>
+    <input type="text" name="name.city" [(ngModel)]="name.city">
+    <br>
+    <input type="submit">
+</form>
+<br>
+<h2 *ngIf="info">{{ celsius }} &#8451;  /  {{ fahrenheit }} &#8457;</h2>
+</div>
